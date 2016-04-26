@@ -12,11 +12,7 @@ Vagrant box for the static site generator Cactus
 ```cmd
 git clone https://github.com/fredbourni/vagrant-cactus.git
 ```
-**Start the VM**
-```cmd
-cd vagrant-cactus
-vagrant up
-```
+
 **Start the VM**
 ```cmd
 cd vagrant-cactus
@@ -25,7 +21,7 @@ vagrant up
 
 **Connect to the VM**
 
-- Use Putty or any other SSH client using `127.0.0.1` port `2222`
+- Use [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) or any other SSH client using `127.0.0.1` port `2222`
 
 **Create your first Cactus site**
 
