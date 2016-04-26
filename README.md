@@ -21,7 +21,7 @@ vagrant up
 
 **Connect to the VM**
 
-- Use [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) or any other SSH client using `127.0.0.1` port `2222`
+- Use [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) or any other SSH client using `127.0.0.1` port `2222` using `vagrant` as username and password.
 
 **Create your first Cactus site**
 
