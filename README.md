@@ -1,7 +1,7 @@
 # vagrant-cactus
 Vagrant box for the static site generator Cactus
 
-## Dependencies:
+## Dependencies
 
 - [Vagrant](https://www.vagrantup.com)
 - [Virtualbox](https://www.virtualbox.org)
