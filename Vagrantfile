@@ -3,7 +3,7 @@
 
 Vagrant.configure(2) do |config|
 
-  config.vm.box = "debian/jessie64"
+  config.vm.box = "ubuntu/trusty64"
 
   config.vm.network "forwarded_port", guest: 8000, host: 8000
 
@@ -24,15 +24,6 @@ Vagrant.configure(2) do |config|
     sudo ln -s /usr/bin/yui-compressor /usr/bin/yuicompressor
     sudo apt-get install closure-compiler -y
     sudo pip install awscli
-    cat <<EOB > /root/.bashrc
-    export LS_OPTIONS='--color=auto'
-    alias ls='ls \$LS_OPTIONS'
-    alias ll='ls \$LS_OPTIONS -l'
-    alias la='ls \$LS_OPTIONS -la'
-    alias rm='rm -i'
-    alias cp='cp -i'
-    alias mv='mv -i'
-    EOB
   SHELL
 
 end
